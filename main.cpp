@@ -1,10 +1,13 @@
 #include<iostream>
+#include<string>
 
 using namespace std;
 
 int main()
 {
-	cout << "sabrina stinks" << endl;
+	cout << "What is your name?" << endl;
+	cin >> name;
+	cout << "What is your date of birth?" << endl;
 
 
 	return 0;
