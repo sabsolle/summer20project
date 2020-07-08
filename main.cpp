@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "sabrina stinks" << endl;
+	cout << ":)" << endl;
 
 
 	return 0;
