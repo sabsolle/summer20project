@@ -11,7 +11,11 @@ int main()
 	cout << "What is your date of birth?" << endl;
 
 	cout << ":)" << endl;
+
 	cout << "confused" << endl;
+
+	cout << "Penis" << endl;
+
 
 
 
