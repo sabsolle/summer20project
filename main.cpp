@@ -27,10 +27,10 @@ int main()
 	cout << "j) December 22 - January 19" << endl;
 	cout << "k) January 20 - February 18" << endl;
 	cout << "l) February 19 - March 20" << endl;
-	cin >> input;
 
 
 	do {	
+		cin >> input;
 		switch (input) {
 			case 'A':
 			case 'a': 
