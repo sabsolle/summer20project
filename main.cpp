@@ -6,7 +6,9 @@ using namespace std;
 int main()
 {	
 	string name = " ";
-	char birthday = "";
+	char input;
+	bool redo = false;
+	
 
 
 
@@ -25,18 +27,68 @@ int main()
 	cout << "j) December 22 - January 19" << endl;
 	cout << "k) January 20 - February 18" << endl;
 	cout << "l) February 19 - March 20" << endl;
-	cin >> birthday;
+	cin >> input;
 
-	switch (birthday) {
-		case a: 
-			break;
-		case b:
-			break;
-		default: 
-			break;
 
+	do {	
+		switch (input) {
+			case 'A':
+			case 'a': 
+
+				break;
+			case 'B':
+			case 'b': 
+
+				break;
+			case 'C':
+			case 'c': 
+
+				break;
+			case 'D':
+			case 'd': 
+
+				break;
+			case 'E':
+			case 'e': 
+
+				break;
+			case 'F':
+			case 'f': 
+
+				break;
+			case 'G':
+			case 'g': 
+
+				break;
+			case 'H':
+			case 'h': 
+
+				break;
+			case 'I':
+			case 'i': 
+
+				break;
+			case 'J':
+			case 'j': 
+
+				break;
+			case 'K':
+			case 'k': 
+
+				break;
+			case 'L':
+			case 'l': 
+
+				break;
+			
+			default: 
+				cout << "Please enter a valid option (Aa - Ll)" << endl;
+				redo = true;
+				break;
+
+		}
 	}
-	
+	while (redo == true);
 
 
 
