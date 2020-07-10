@@ -7,7 +7,9 @@ int main()
 {	
 	string name = " ";
 	char input;
-	bool redo = false;
+	bool redo_input = false;
+	bool redo_sex = false;
+	int sex;
 	
 
 
@@ -31,7 +33,7 @@ int main()
 
 	do {	
 		cin >> input;
-		switch (input) {
+		switch (input) { // maybe we don't need all of this
 			case 'A':
 			case 'a': 
 
@@ -83,12 +85,25 @@ int main()
 			
 			default: 
 				cout << "Please enter a valid option (Aa - Ll)" << endl;
-				redo = true;
+				redo_input = true;
 				break;
 
 		}
 	}
-	while (redo == true);
+	while (redo_input == true);
+
+	cout << "What is your sex? Please enter a number:\n1) male\n2) female" << endl;
+	do {
+		cin >> sex;
+		if (sex != 1 || 2) {
+			cout << "Please enter a 1 for male or 2 for female." << endl;
+			redo_sex = true;
+		}
+		else {
+			redo_sex = false;
+		}
+	}
+	while (redo_sex == true);
 
 
 
